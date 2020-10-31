@@ -1,44 +1,23 @@
-html {
-    background-image: url("silly.png");
-    background-size: cover;
-    height: 100%;
-   }
-
-#center {
-    background-color: lightblue;opacity:0.9;
-    position: fixed;
-    top: 10px;
-    left: 0;
-    width: 75%;
-
+body {
+  background-color:#1a1a1a;
+  color:#ffffff;
+  font-family: roboto;
 }
-
-p {
-    margin-bottom: 3px;
-    
+/*Imported roboto font, made it dark mode, changed the buttons to not be
+from 1996, aligned the title to center, changed the link color and covered
+myself in oil :3 */
+button{
+  background-color:#d0d0e1;
+  border-style:solid;
+  border-color:#d0d0e1;
 }
-
-input[type=text], select {
-    width: 15%;
-    padding: 9px 20px;
-    margin: 3px 3;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-
-  input[type=text]:focus {
-    border: 3px solid #555;
-  }
-
-  button {
-    width: 5%;
-    background-color: gray;
-    color: white;
-    padding: 5px 10px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
+@font-face {
+  font-family: roboto;
+  src: url(font.ttf);
+}
+a {
+    color: lightblue;
+}
+#title{
+    text-align: center;
+}

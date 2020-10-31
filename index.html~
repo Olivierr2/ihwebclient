@@ -1,19 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>The Client</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" 
-      type="image/png" 
-      href="sillytime.png">
+    <title>Title of the document</title>
   </head>
   <body>
-    <h1 id="title">Irony Hub #General web client!</h1>
-    <p class="label">Channel id here (Standard is #general) (works on other servers too!)</p>
+    <h1>Irony Hub #General web client!</h1>
+    <p>Channel id here (Standard is #general) (works on other servers too!)</p>
     <input id="channelid" type="text" value="746215515378417674"/> <br>
-    <p class="label">Message here</p>
+    <p>Text here</p>
   <input id="text" type="text"/> <br>
-  <p class="label">Token here</p>
+  <p>Token here</p>
   <input id="token" type="text" />
     <button onclick="myFunction()">Send</button> <br>
     <p>But how do i get token</p>
