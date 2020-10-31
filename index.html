@@ -5,6 +5,8 @@
   </head>
   <body>
     <h1>Irony Hub #General web client!</h1>
+    <p>Channel id here (Standard is #general) (works on other servers too!)</p>
+    <input id="channelid" type="text" value="746215515378417674"/> <br>
     <p>Text here</p>
   <input id="text" type="text"/> <br>
   <p>Token here</p>
@@ -12,12 +14,15 @@
     <button onclick="myFunction()">Send</button> <br>
     <p>But how do i get token</p>
     <a href="https://www.youtube.com/watch?v=xuB1WQVM3R8">Click here fuck you</a> <br>
-    <p>You're breaking TOS btw but who gives a shit!</p>
+    <p>You're breaking TOS btw but who gives a shit!</p> <br>
+    <p>How to get channel id?</p>
+    <p>Enable Devoper Mode in your User Settings in discord, then rightclick the channel in question and you should now have a "copy ID" option</p>
     <script>
       function myFunction() {
         var text = document.getElementById("text").value;
         var token = document.getElementById("token").value;
-        fetch("https://discord.com/api/v8/channels/746215515378417674/messages",
+        var id = document.getElementById("channelid").value;
+        fetch("https://discord.com/api/v8/channels/" + id + "/messages",
 {
    "credentials":"include",
    "headers":{
